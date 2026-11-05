@@ -78,8 +78,7 @@ export const CyberNews = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
              {filteredNews.map((article) => (
                <NewsCard key={article.id} article={article} />
-             ))}
-+          </div>
+             ))}   </div>
         ) : (
           <div className="text-center py-16 text-slate-400">
             No news articles found in this category.
